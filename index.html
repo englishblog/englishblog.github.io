@@ -3,7 +3,9 @@ layout: default
 title: "Welcome!"
 navigationName: "Homepage"
 description: "Awesome blog posts on food!"
-coverColor: "#3DB895"
+coverImage: "home-banner.png"
+headerColor: "#333"
+group: "navigation"
 order: 1
 ---
 
@@ -11,10 +13,10 @@ order: 1
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="danger">
+                <div class="danger">
                     <p class="bg-danger" id="categoryError">Looks like there aren't any blog posts available yet...</p>
-               </div>
-            <!-- <i><b><p>Recent Posts:</p></b></i>
+                </div>
+<!--             <i><b><p>Recent Posts:</p></b></i>
                 {% for post in paginator.posts %}
                         <div class="post-preview">
                         <a href="{{ post.url | prepend: site.url }}">
@@ -42,10 +44,10 @@ order: 1
                     <li class="next">
                         <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">Newer Posts &rarr;</a>
                     </li>
-                {% endif %}
-                </ul> -->
+                {% endif %} -->
+                </ul>
             </div>
-            {% endif %}
+            <!-- {% endif %} -->
         </div>
     </div>
 
