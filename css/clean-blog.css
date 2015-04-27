@@ -141,6 +141,14 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
+
+.site-heading-bg {
+  background-color: rgba(205,205,245,0.4);
+  padding: 20px;
+
+
+}
+
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
